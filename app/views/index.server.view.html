@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{title}}</title>
+
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="JAVIOT">
+  <meta name="apple-mobile-web-app-title" content="JAVIOT">
+  <meta name="msapplication-starturl" content="index">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/ratchet.min.css">
+  <link rel="stylesheet" href="css/ratchet-theme-ios.min.css">
+
+
+  <script src="js/ratchet.min.js"></script>
+
+</head>
+
+<body>
+  <header class="bar bar-nav">
+    <a class="icon icon-refresh pull-right"></a>
+    <h1 class="title">{{title}}</h1>
+  </header>
+
+  <div class="content">
+    <ul class="table-view">
+      <li class="table-view-cell">
+        Encender LED
+        <div id="led" class="toggle">
+          <div class="toggle-handle"></div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="Register.js"></script>
+  <script src="ServiceWorker.js"></script>
+</body>
+
+</html>
